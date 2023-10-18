@@ -1,0 +1,4 @@
+.mainHeader {
+  background: rgb(29, 67, 57);
+  @apply text-white;
+}

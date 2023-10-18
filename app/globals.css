@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply text-gray-800 bg-white;
+}
+
+.box-border {
+  border: 1px solid #afc8bf;
+}
+
+.green-background {
+  background: rgb(29, 67, 57);
+}
+.light-green-bg {
+  background: #285e50;
+  opacity: 0.8;
+}
+
+.main-button {
+  background: rgb(29, 67, 57);
+  @apply px-4 py-2 rounded-full text-white;
+}
+.main-button:disabled {
+  @apply bg-gray-400 text-gray-900;
+}
+.main-button:hover:not(:disabled),
+.secondary-button:hover {
+  background: #285e50;
+  opacity: 0.8;
+  @apply text-white;
+}
+.secondary-button {
+  border: 1px solid #afc8bf;
+  @apply px-4 py-2 rounded-full;
+}
