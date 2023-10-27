@@ -18,8 +18,6 @@ I didn't implement any authentication. In the real world I felt like this would 
 
 For the ORM I chose Prisma. There's no particular reason for this aside from the fact that it's easy to set up and has good documentation.
 
-I didn't really make any design decisions. Aside from grabbing a couple of colors from the Solace website I opted to keep everything pretty simple. I used Tailwind because I like it and I'm familiar with it.
-
 I decided to use Context API rather than Redux, again, for the sake of simplicity. I find that for smaller applications the Context API is easier to set up and work with. Though I feel like toward the end this has started to get to a point where I would probably switch to Redux before adding many more features.
 
 ## Things I would do next:
