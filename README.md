@@ -1,7 +1,5 @@
 Simple note-taking app using NextJS with SQLite database.
 
-Publicly visible [here](https://hammerhead-app-ksx6q.ondigitalocean.app/)
-
 To run locally:
 
 ```bash
